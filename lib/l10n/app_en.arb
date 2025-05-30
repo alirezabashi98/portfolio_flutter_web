@@ -1,0 +1,13 @@
+{
+    "protfolio": "Protfolio",
+    "home": "Home",
+    "courses": "Courses",
+    "blog": "Blog",
+    "aboutMe": "About Me",
+    "alirezaBashi": "Alireza Bashi",
+    "flutterDeveloper": "Flutter Developer",
+    "aboutAlirezaBashi": "Mobile developer with over 3 years of hands-on experience building high-performance Flutter applications for both Android\nand iOS. Specialized in Clean Architecture, BLoC state management, and scalable codebases. Proven ability to deliver\nmaintainable and user-focused apps in remote and collaborative environments. Passionate about creating seamless user\nexperiences and continuously improving code quality",
+    "flutter" : "Powered by Flutter",
+    "email" : "Email",
+    "linkedin" : "Linkedin"
+}
