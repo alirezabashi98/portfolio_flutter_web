@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => ThemeCubit(getIt())..init()),
       ],
       child: BlocBuilder<LocaleCubit, String>(
-        builder: (context, Locate) {
+        builder: (context, locale) {
           return BlocBuilder<ThemeCubit, bool>(
             builder: (context, isDark) {
               return MaterialApp(
@@ -36,10 +36,10 @@ class MyApp extends StatelessWidget {
                   GlobalWidgetsLocalizations.delegate,
                 ],
                 supportedLocales: [Locale('en'), Locale('fa')],
-                locale: Locale(Locate),
-                darkTheme: AppTheme(fontFamily: _fontFamily(Locate)).dark,
-                theme: AppTheme(fontFamily: _fontFamily(Locate)).light,
-                themeMode: _isDrkeTheme(isDark),
+                locale: Locale(locale),
+                darkTheme: AppTheme(fontFamily: _fontFamily(locale)).dark,
+                theme: AppTheme(fontFamily: _fontFamily(locale)).light,
+                themeMode: _isDarkTheme(isDark),
                 home: HomeScreen(),
               );
             },
@@ -51,5 +51,5 @@ class MyApp extends StatelessWidget {
 
   _fontFamily(String locale) => locale == 'en' ? 'poppins' : 'vazir';
 
-  _isDrkeTheme(bool isDark) => isDark ? ThemeMode.dark : ThemeMode.light;
+  _isDarkTheme(bool isDark) => isDark ? ThemeMode.dark : ThemeMode.light;
 }
