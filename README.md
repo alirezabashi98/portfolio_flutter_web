@@ -1,16 +1,25 @@
-# portfolio
+# Alireza Bashi Portfolio
 
-A new Flutter project.
+A personal portfolio website built with **Flutter Web**, showcasing my projects, skills, and experience as a mobile developer.
 
-## Getting Started
+![Screenshot](https://github.com/alirezabashi98/portfolio_flutter_web/blob/main/Screenshot%202025-05-31%20102055.png)
 
-This project is a starting point for a Flutter application.
+## 🚀 About Me
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Mobile developer with over 3 years of hands-on experience building high-performance Flutter applications for both Android and iOS. Specialized in Clean Architecture, BLoC state management, and scalable codebases. Proven track record of delivering maintainable, user-focused apps in remote and collaborative environments. Passionate about seamless user experiences and constantly improving code quality.
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter Web
+- Clean Architecture
+- Responsive Design
+
+## 🔗 Links
+
+- [LinkedIn](https://www.linkedin.com/in/alirezabashi98/)
+- [GitHub](https://github.com/alirezabashi98)
+- [Website (GitHub Pages)](https://alirezabashi98.github.io/portfolio)
+
+---
+
+Feel free to explore the code or reach out for collaboration opportunities!
